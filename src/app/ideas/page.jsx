@@ -1,5 +1,5 @@
 import IdeasContainer from "@/components/IdeasContainer";
-//
+
 const IdeasPage = async () => {
 
     const res = await fetch(
