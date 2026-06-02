@@ -23,7 +23,7 @@ export const metadata = {
   title: "Idea Vault",
   description: "Best idea sharing app",
 };
-
+//
 export default function RootLayout({ children }) {
   return (
     <html
