@@ -7,7 +7,7 @@ import MyIdeaCard from "@/components/MyIdeaCard";
 const MyIdeasCard = () => {
 
     const { data:session } = authClient.useSession();
-
+//
     const user = session?.user;
 
     const [ideas,setIdeas] = useState([]);
