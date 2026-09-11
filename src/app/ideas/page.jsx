@@ -9,6 +9,8 @@ const IdeasPage = async () => {
         }
     );
 
+    //
+
     const ideas = await res.json();
 
     return (
